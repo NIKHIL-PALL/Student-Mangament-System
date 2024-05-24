@@ -1,0 +1,44 @@
+
+
+.rem {
+  background-color: red !important;
+}
+
+/* styles.css */
+.modal-backdrop-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  z-index: 1040; /* Ensure it is above other content */
+}
+
+.form-control{
+  display: inline;
+  width: 60%;
+  margin: 0px 10px;
+}
+label {
+  margin-right: 10px;
+}
+
+.progress-custom {
+  width: 100%;
+  height: 30px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.progress-custom::-webkit-progress-bar {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+.progress-custom::-webkit-progress-value {
+  background-color: #28a745;
+  border-radius: 5px;
+}
+.progress-custom::-moz-progress-bar {
+  background-color: #28a745;
+  border-radius: 5px;
+}
