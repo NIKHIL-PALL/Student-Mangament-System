@@ -1,5 +1,5 @@
-import StudentForm2 from "../StudentForm2";
-import StudentList2 from "../StudentList2";
+import StudentForm from "../StudentForm";
+import StudentList from "../StudentList";
 import React, { useState } from "react";
 
 const getItems = () => {
@@ -11,7 +11,7 @@ const getItems = () => {
   }
 };
 
-const Dashboard2 = () => {
+const Dashboard = () => {
   const [isEdit, setIsEdit] = useState(false);
   const [isEditItem, setIsEditItem] = useState(null);
 
@@ -80,7 +80,7 @@ const Dashboard2 = () => {
   return (
     <React.Fragment>
       <div>
-        <StudentForm2
+        <StudentForm
           formState={formState}
           setFormState={setFormState}
           enteredValues={students}
@@ -94,7 +94,7 @@ const Dashboard2 = () => {
           progress={progress}
           setProgress={setProgress}
         />
-        <StudentList2
+        <StudentList
           studentList={students}
           setItems={setStudents}
           setIsEdit={setIsEdit}
@@ -110,4 +110,4 @@ const Dashboard2 = () => {
   );
 };
 
-export default Dashboard2;
+export default Dashboard;

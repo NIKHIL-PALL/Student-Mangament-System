@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare, faTrash } from "@fortawesome/free-solid-svg-icons";
 import ConfirmationDailog from "../Utils/ConfirmationDailog";
 
-function StudentList2({
+function StudentList({
   studentList,
   setItems,
   setIsEdit,
@@ -147,4 +147,4 @@ function StudentList2({
   );
 }
 
-export default StudentList2;
+export default StudentList;

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { isAge, isGrade, isName } from "../Utils/validation";
 import { useState } from "react";
 
-const StudentForm2 = ({
+const StudentForm = ({
   formState,
   setFormState,
   enteredValues,
@@ -579,4 +579,4 @@ const StudentForm2 = ({
   );
 };
 
-export default StudentForm2;
+export default StudentForm;
